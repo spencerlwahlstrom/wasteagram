@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319879418682",
+    "project_id": "wastemanager-6f1d2",
+    "storage_bucket": "wastemanager-6f1d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319879418682:android:f8a61bdcd7bd9a6d99b603",
+        "android_client_info": {
+          "package_name": "edu.oregonstate.wahlstrs.wastemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319879418682-63dmkf1av5sle9cfc8pa2q43tu0vugqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPbRJrjidesH3ed11zf_A4xf17hU5QxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319879418682-63dmkf1av5sle9cfc8pa2q43tu0vugqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
