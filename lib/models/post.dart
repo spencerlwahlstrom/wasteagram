@@ -1,9 +1,10 @@
 import 'dart:ffi';
 
 class Post {
-  final String date;
+  final DateTime date;
   final String photo;
   final int items;
-  final String location;
-  Post({required this.date, required this.photo, required this.items, required this.location});
+  final double lat;
+  final double long;
+  Post({required this.date, required this.photo, required this.items, required this.lat, required this.long});
 }
