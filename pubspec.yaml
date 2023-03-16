@@ -33,12 +33,14 @@ dependencies:
   share_plus: ^6.3.1
   location: ^4.4.0
   intl: ^0.18.0
+  firebase_analytics: ^10.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  test: ^1.21.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -14,18 +14,24 @@ class PostList extends StatelessWidget{
       itemCount: posts.postsLength,
       itemBuilder: (context, index) {
             Post post = posts.posts[index];
-            return GestureDetector(
-              onTap: () {
-                Navigator.of(context).push(
-                MaterialPageRoute(builder: (context)=> Details(post: post)
-              )
-            );
-              },
-              child: (
-                  ListTile(
-                    title: Text(DateFormat.yMMMMEEEEd().format(post.date)),
-                    trailing: Text('${post.items}', style: const TextStyle(fontSize: 25)),
-                  )
+            return Semantics(
+               button: true,
+               enabled: true,
+               label: 'Post list tile',
+              onTapHint: 'See Details',
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context)=> Details(post: post)
+                )
+              );
+                },
+                child: (
+                    ListTile(
+                      title: Text(DateFormat.yMMMMEEEEd().format(post.date)),
+                      trailing: Text('${post.items}', style: const TextStyle(fontSize: 25)),
+                    )
+                ),
               ),
             );
       }
