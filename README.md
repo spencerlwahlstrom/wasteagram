@@ -1,7 +1,7 @@
 # wastemanager
 
 ## About
-Cross platform mobile application for restaurants to track the amount of food wasted across multiple locations. Allows user to track, items, location, and upload photos from native devices' camera, and photo gallery. Uses google Firebase Cloud Storage and Firebase Cloud Firestore for storing images and post data. Application sends tracks user usage, and successful photo upload to Google Analytics. Includes unit testing suite.
+Cross platform mobile application for restaurants to track the amount of food wasted across multiple locations. Allows user to track, items, location, and upload photos from native devices' camera, and photo gallery. Uses google Firebase Cloud Storage and Firebase Cloud Firestore for storing images and post data. Application tracks user usage, and successful photo upload with Google Analytics. Includes unit testing suite.
 
 ## Technology
 - Flutter
